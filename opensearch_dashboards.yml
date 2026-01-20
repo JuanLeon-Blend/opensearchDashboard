@@ -1,0 +1,11 @@
+server.host: "0.0.0.0"
+
+opensearch.hosts: ["https://opensearch:9200"]
+opensearch.username: "${OPENSEARCH_USERNAME}"
+opensearch.password: "${OPENSEARCH_ADMIN_PASSWORD}"
+
+opensearch.ssl.verificationMode: none
+
+opensearch_security.multitenancy.enabled: true
+opensearch_security.multitenancy.tenants.enable_global: true
+opensearch_security.multitenancy.tenants.enable_private: true

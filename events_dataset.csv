@@ -1,0 +1,26 @@
+@timestamp,location,event_type,severity,user,device,os,plan,duration_ms,amount_usd,message
+2026-01-10T08:05:00Z,Bogota,login,low,juan,mobile,Android,free,120,,user login
+2026-01-10T08:06:30Z,Bogota,search,low,juan,mobile,Android,free,85,,search products
+2026-01-10T08:10:00Z,Bogota,purchase,medium,juan,mobile,Android,pro,2300,19.99,purchase completed
+2026-01-10T09:15:00Z,Medellin,login,low,felipe,desktop,Windows,free,110,,user login
+2026-01-10T09:18:00Z,Medellin,search,low,felipe,desktop,Windows,free,95,,search products
+2026-01-10T09:22:00Z,Medellin,purchase,medium,felipe,desktop,Windows,pro,2100,29.99,purchase completed
+2026-01-11T11:40:00Z,Cali,login,low,karen,mobile,iOS,free,105,,user login
+2026-01-11T11:41:20Z,Cali,search,low,karen,mobile,iOS,free,70,,search products
+2026-01-11T11:45:00Z,Cali,error,high,karen,mobile,iOS,free,5200,,payment timeout
+2026-01-11T12:00:00Z,Cali,purchase,medium,karen,mobile,iOS,pro,2500,24.99,purchase completed
+2026-01-12T14:05:00Z,Barranquilla,login,low,valentina,tablet,Android,free,130,,user login
+2026-01-12T14:08:00Z,Barranquilla,search,low,valentina,tablet,Android,free,90,,search products
+2026-01-12T14:12:00Z,Barranquilla,purchase,medium,valentina,tablet,Android,pro,1900,15.99,purchase completed
+2026-01-13T16:20:00Z,Bogota,login,low,juan,desktop,Linux,pro,100,,user login
+2026-01-13T16:25:00Z,Bogota,search,low,juan,desktop,Linux,pro,60,,search products
+2026-01-13T16:30:00Z,Bogota,error,high,juan,desktop,Linux,pro,4300,,gateway error
+2026-01-14T18:10:00Z,Medellin,login,low,felipe,mobile,Android,pro,115,,user login
+2026-01-14T18:12:00Z,Medellin,search,low,felipe,mobile,Android,pro,75,,search products
+2026-01-14T18:18:00Z,Medellin,purchase,medium,felipe,mobile,Android,pro,2050,39.99,purchase completed
+2026-01-15T20:45:00Z,Cali,login,low,karen,desktop,MacOS,free,98,,user login
+2026-01-15T20:50:00Z,Cali,search,low,karen,desktop,MacOS,free,65,,search products
+2026-01-15T20:55:00Z,Cali,error,high,karen,desktop,MacOS,free,4800,,service unavailable
+2026-01-16T22:05:00Z,Bogota,login,low,juan,mobile,iOS,pro,102,,user login
+2026-01-16T22:08:00Z,Bogota,search,low,juan,mobile,iOS,pro,58,,search products
+2026-01-16T22:12:00Z,Bogota,purchase,medium,juan,mobile,iOS,pro,2400,49.99,purchase completed
